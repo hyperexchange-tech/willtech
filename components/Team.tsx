@@ -3,6 +3,14 @@ import Link from 'next/link';
 import Title from './Title';
 import { teamData } from '@/data/dummy-data';
 
+interface TeamMember {
+    id: string | number;
+    name: string;
+    role: string;
+    description: string;
+    image: string;
+}
+
 export default function Team() {
     return (
         <section id="team" className="py-20 2xl:py-32">
@@ -14,7 +22,7 @@ export default function Team() {
                 />
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    {teamData.map((member, i) => (
+                    {(teamData as TeamMember[]).map((member, i) => (
                         <motion.div
                             key={member.id}
                             initial={{ y: 60, opacity: 0 }}
@@ -59,7 +67,6 @@ export default function Team() {
                     transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.3 }}
                     className="text-center mt-12"
                 >
-                    {/* we will change the ref to /team later  a href="/team" */}
                     <Link href="" className="inline-block px-8 py-3 bg-orange-600 hover:bg-orange-700 text-white font-semibold rounded-lg transition-colors duration-300">
                         View Full Team
                     </Link>
