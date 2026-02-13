@@ -134,10 +134,10 @@ export const detailedServicesData = [
 ];
 
 export const clientTypesData = [
-    'Private clients',
+    'Government & Public Sector',
     'Developers',
-    'Institutions & NGOs',
-    'Public sector'
+    'NGOs & Institutions',
+    'Individuals Executing Projects'
 ];
 
 export const costPlanStepsData = [
