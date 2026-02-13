@@ -40,28 +40,40 @@ export default function Trust() {
                     description="Building trust through professionalism, transparency, and proven delivery"
                 />
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 mt-8">
+                {/* Hero image */}
+                <div className="mb-8 overflow-hidden rounded-lg shadow-md">
+                    <img
+                        src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1600&q=80&auto=format&fit=crop"
+                        alt="Trust and professionalism"
+                        className="w-full h-64 md:h-96 object-cover"
+                    />
+                </div>
+
+                {/* Compact bulleted list */}
+                <ul className="space-y-4">
                     {trustReasons.map((reason, i) => (
-                        <motion.div
+                        <motion.li
                             key={i}
-                            initial={{ y: 40, opacity: 0 }}
+                            initial={{ y: 20, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             viewport={{ once: true }}
-                            transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.05 + i * 0.05 }}
-                            className="bg-white border border-orange-200/60 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow"
+                            transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.05 + i * 0.04 }}
+                            className="flex items-start gap-4"
                         >
-                            <div className="w-10 h-10 rounded-lg bg-orange-100/60 flex items-center justify-center text-orange-600 mb-3">
+                            <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-orange-100/60 flex items-center justify-center text-orange-600">
                                 {reason.icon}
                             </div>
-                            <h3 className="font-semibold text-gray-900 mb-2 text-xs">
-                                {reason.title}
-                            </h3>
-                            <p className="text-gray-600 text-xs leading-relaxed">
-                                {reason.description}
-                            </p>
-                        </motion.div>
+                            <div>
+                                <h3 className="font-semibold text-gray-900 text-sm md:text-base">
+                                    {reason.title}
+                                </h3>
+                                <p className="text-gray-600 text-sm md:text-base leading-relaxed">
+                                    {reason.description}
+                                </p>
+                            </div>
+                        </motion.li>
                     ))}
-                </div>
+                </ul>
             </div>
         </section>
     );
