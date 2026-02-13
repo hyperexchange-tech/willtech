@@ -143,7 +143,7 @@ export default function Hero() {
                             viewport={{ once: true }}
                             transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.2 }}
                         >
-       WillTech Engineering Limited delivers structured engineering consultancy, project management, cost consultancy and construction support services for government, institutional, private and public sector clients across Nigeria. We support projects from early planning through execution and delivery, providing transparent, professional and results-driven guidance at every stage.
+       WillTech Engineering Limited delivers structured engineering consultancy, project management, cost consultancy and construction support services for government, institutional, private and public sector clients across Nigeria.
                         </motion.p>
 
                         <motion.div className="flex flex-col sm:flex-row items-center gap-4 mb-8"
