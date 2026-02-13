@@ -193,12 +193,24 @@ export const plansData = [
 
 export const faqData = [
     {
-        question: 'How does WillTech protect diaspora investors from fraud?',
-        answer: 'We provide independent oversight through our on-ground teams in Nigeria. We conduct regular site inspections, verify all financial transactions, monitor contractor performance, and provide detailed reports and photo documentation. This ensures complete transparency and prevents scams.'
+        question: 'Do you work with government projects?',
+        answer: 'Yes, We support ministries, agencies and institutions with engineering consultancy and project delivery services.'
     },
     {
         question: 'Can you oversee my construction project in Nigeria while I\'m abroad?',
         answer: 'Yes, that\'s exactly what we do. Whether you\'re in the UK, US, or anywhere globally, our teams in Nigeria handle all aspects of project monitoring, quality control, and progress tracking. You receive regular updates and reports.'
+    },
+    {
+        question: 'Do you work with private clients?',
+        answer: 'Yes. We support individuals, developers and organisations.'
+    },
+        {
+        question: 'Do you work with diaspora clients?',
+        answer: 'Yes, but not limited to diaspora. We support individuals, developers and organisations both home and abroad.'
+    },
+    {
+        question: 'Do you manage projects fully?',
+        answer: 'Yes. From planning to delivery.'
     },
     {
         question: 'What if the contractor tries to inflate costs or cut corners?',
@@ -210,7 +222,7 @@ export const faqData = [
     },
     {
         question: 'What types of projects do you oversee?',
-        answer: 'We handle residential construction, commercial projects, community infrastructure, health facilities, educational institutions, and any other construction or infrastructure project in Nigeria. Size doesn\'t matter—we protect your investment.'
+        answer: 'We handle government projects,residential construction, commercial projects, community infrastructure, health facilities, educational institutions, and any other construction or infrastructure project in Nigeria. Size doesn\'t matter—we protect your investment.'
     }
 ];
 
