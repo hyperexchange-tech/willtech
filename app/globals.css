@@ -1,0 +1,97 @@
+@import 'tailwindcss';
+
+@theme {
+    --font-sans: 'Outfit', sans-serif;
+    --color-flutterwave-orange: #F37335;
+}
+
+@layer base {
+    body {
+        @apply bg-white text-gray-900 antialiased;
+    }
+
+    button {
+        @apply cursor-pointer;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply text-gray-900;
+    }
+
+    p {
+        @apply text-gray-700;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-marquee {
+    display: inline-flex;
+    animation: marquee 16s linear infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.animate-float {
+    animation: float 5s ease-in-out infinite;
+}
+
+@theme {
+    --color-primary: #F37335;
+    --color-primary-hover: #E05920;
+    --color-secondary: #F37335;
+    --color-accent: #F37335;
+}
+
+@layer utilities {
+    .glass-panel {
+        @apply bg-orange-50/60 backdrop-blur-lg border border-orange-200/60 shadow-xl;
+    }
+
+    .btn-secondary {
+        @apply px-6 py-3 rounded-xl bg-orange-100/80 hover:bg-orange-200/80 text-gray-900 font-semibold backdrop-blur-sm border border-orange-300/60 transition-all duration-300;
+    }
+}
+
+/* or your feature-specific CSS file */
+
+.btn-more-services {
+  background-color: #001f4d; /* Deep blue */
+  color: white;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 24px;
+}
+
+.btn-more-services:hover {
+  background-color: #001a3d; /* Slightly darker on hover */
+}
+
+.btn-more-services:active {
+  background-color: #000f2a; /* Even darker on click */
+}

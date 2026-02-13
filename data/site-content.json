@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "headline": "Project Management & Engineering Consultancy for Reliable Projects",
+    "subtext": "WillTech Engineering Limited provides project management, cost consultancy and construction support services for private, institutional and public sector projects across Nigeria. We support clients from early planning through delivery with structured, transparent and professional guidance.",
+    "trustLine": "Supporting individuals, developers, organisations and government initiatives.",
+    "buttons": [
+      { "label": "Request Consultation", "href": "/contact" },
+      { "label": "Our Services", "href": "/services" }
+    ]
+  },
+  "servicesOverview": {
+    "title": "Our Core Services",
+    "items": [
+      {
+        "title": "Project Management",
+        "desc": "End-to-end coordination and oversight of projects from planning through construction and completion."
+      },
+      {
+        "title": "Quantity Surveying & Cost Consultancy",
+        "desc": "Cost planning, budgeting, procurement support and financial monitoring throughout the project lifecycle."
+      },
+      {
+        "title": "Construction & Technical Support",
+        "desc": "Site coordination, technical advisory and delivery support during construction phases."
+      },
+      {
+        "title": "Infrastructure & Public Projects",
+        "desc": "Support for education, healthcare, institutional and community infrastructure initiatives."
+      },
+      {
+        "title": "Client Representation",
+        "desc": "Acting on behalf of clients to coordinate consultants, contractors and project stakeholders."
+      }
+    ],
+    "button": { "label": "View All Services", "href": "/services" }
+  },
+  "cta": {
+    "title": "Planning a project? Let’s discuss how we can support you.",
+    "button": { "label": "Contact Us", "href": "/contact" }
+  }
+}
