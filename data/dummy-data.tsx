@@ -95,42 +95,42 @@ export const detailedServicesData = [
             'Delivery monitoring'
         ]
     },
-    {
-        id: 'property-acquisition',
-        title: 'Property Acquisition and Documentation',
-        description: 'Complete support for property acquisition with proper documentation and verification.',
-        services: [
-            'Property acquisition guidance',
-            'Documentation preparation',
-            'Legal compliance review',
-            'Title verification',
-            'Transaction oversight'
-        ]
-    },
-    {
-        id: 'survey-confirmation',
-        title: 'Survey Confirmation with Local Authority',
-        description: 'Professional survey services and confirmation with relevant local government authorities.',
-        services: [
-            'Land surveying coordination',
-            'Local authority liaison',
-            'Survey documentation',
-            'Approval facilitation',
-            'Certification support'
-        ]
-    },
-    {
-        id: 'property-confirmation',
-        title: 'Property Confirmation for Purpose',
-        description: 'Verification and confirmation of property purpose alignment with intended use.',
-        services: [
-            'Purpose verification',
-            'Use case assessment',
-            'Regulatory compliance check',
-            'Authority confirmation',
-            'Documentation support'
-        ]
-    }
+    // {
+    //     id: 'property-acquisition',
+    //     title: 'Property Acquisition and Documentation',
+    //     description: 'Complete support for property acquisition with proper documentation and verification.',
+    //     services: [
+    //         'Property acquisition guidance',
+    //         'Documentation preparation',
+    //         'Legal compliance review',
+    //         'Title verification',
+    //         'Transaction oversight'
+    //     ]
+    // },
+    // {
+    //     id: 'survey-confirmation',
+    //     title: 'Survey Confirmation with Local Authority',
+    //     description: 'Professional survey services and confirmation with relevant local government authorities.',
+    //     services: [
+    //         'Land surveying coordination',
+    //         'Local authority liaison',
+    //         'Survey documentation',
+    //         'Approval facilitation',
+    //         'Certification support'
+    //     ]
+    // },
+    // {
+    //     id: 'property-confirmation',
+    //     title: 'Property Confirmation for Purpose',
+    //     description: 'Verification and confirmation of property purpose alignment with intended use.',
+    //     services: [
+    //         'Purpose verification',
+    //         'Use case assessment',
+    //         'Regulatory compliance check',
+    //         'Authority confirmation',
+    //         'Documentation support'
+    //     ]
+    // }
 ];
 
 export const clientTypesData = [
