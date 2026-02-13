@@ -257,7 +257,7 @@ export const footerLinks = [
 export const contactInfo = {
     company: "WillTech Engineering Limited",
     email: "info@willtechs.org",
-    phone: ["+2348062863025 (Nigeria)"],
+    // phone: ["+2348062863025 (Nigeria)"],
     phone: ["+447535951042 (United Kingdom)"],
     locations: ["Nigeria"],
     description: "Project Management • Cost Consultancy • Construction Support. Supporting reliable project delivery across Nigeria."
