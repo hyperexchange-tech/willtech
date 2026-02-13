@@ -131,9 +131,9 @@ export default function Hero() {
                             viewport={{ once: true }}
                             transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.1 }}
                         >
-                            Project Management, Engineering & Consultancy  <br />
+                            Engineering, Consultancy & Project Management  <br />
                             <span className="bg-clip-text text-transparent bg-linear-to-r from-[#F37335] to-[#E05920]">
-                                For Reliable Projects
+                                For Modern Development
                             </span>
                         </motion.h1>
 
@@ -143,8 +143,7 @@ export default function Hero() {
                             viewport={{ once: true }}
                             transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.2 }}
                         >
-                            WillTech Engineering Limited provides project management, cost consultancy and construction support services for private, institutional and public sector projects across Nigeria.
-                            We support clients from early planning through delivery with structured, transparent and professional guidance.
+       WillTech Engineering Limited delivers structured engineering consultancy, project management, cost consultancy and construction support services for government, institutional, private and public sector clients across Nigeria. We support projects from early planning through execution and delivery, providing transparent, professional and results-driven guidance at every stage.
                         </motion.p>
 
                         <motion.div className="flex flex-col sm:flex-row items-center gap-4 mb-8"
