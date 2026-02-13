@@ -5,19 +5,19 @@ import { Building2, Briefcase, Heart, User } from 'lucide-react';
 export default function Clients() {
     const clientTypes = [
         {
-            icon: <Building2 className="w-6 h-6" />,
+            icon: <Building2 className="w-7 h-7" />,
             title: "Government & public sector"
         },
         {
-            icon: <Briefcase className="w-6 h-6" />,
+            icon: <Briefcase className="w-7 h-7" />,
             title: "Private developers"
         },
         {
-            icon: <Heart className="w-6 h-6" />,
+            icon: <Heart className="w-7 h-7" />,
             title: "NGOs & institutions"
         },
         {
-            icon: <User className="w-6 h-6" />,
+            icon: <User className="w-7 h-7" />,
             title: "Individuals executing projects"
         }
     ];
@@ -41,10 +41,10 @@ export default function Clients() {
                             transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.05 + i * 0.08 }}
                             className="bg-white border border-orange-200/60 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow text-center"
                         >
-                            <div className="w-10 h-10 rounded-lg bg-orange-100/60 flex items-center justify-center text-orange-600 mx-auto mb-3">
+                            <div className="w-12 h-12 rounded-lg bg-orange-100/60 flex items-center justify-center text-orange-600 mx-auto mb-3">
                                 {client.icon}
                             </div>
-                            <h3 className="font-semibold text-gray-900 text-xs">
+                            <h3 className="font-semibold text-gray-900 text-sm md:text-base">
                                 {client.title}
                             </h3>
                         </motion.div>
