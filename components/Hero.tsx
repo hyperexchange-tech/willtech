@@ -137,7 +137,7 @@ export default function Hero() {
                             </span>
                         </motion.h1>
 
-                        <motion.p className="text-gray-700 max-w-lg mb-8"
+                        <motion.p className="text-gray-700 text-lg max-w-lg mb-8"
                             initial={{ y: 60, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             viewport={{ once: true }}
