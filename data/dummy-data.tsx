@@ -248,8 +248,8 @@ export const footerLinks = [
     {
         title: "Legal",
         links: [
-            { name: "Privacy Policy", url: "#" },
-            { name: "Terms of Service", url: "#" }
+            { name: "Privacy Policy", url: "/privacy" },
+            { name: "Terms of Service", url: "/terms" }
         ]
     }
 ];
