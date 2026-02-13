@@ -4,7 +4,16 @@ import { motion } from 'framer-motion';
 import Title from '@/components/Title';
 import { teamData } from '@/data/dummy-data';
 
-const teamDepartments = [
+interface Member {
+    id: string | number;
+    name: string;
+    role: string;
+    description: string;
+    image: string;
+    department: string;
+}
+
+const teamDepartments: { department: string; description: string; members: Member[] }[] = [
     {
         department: 'Founder / Initiator',
         description: 'Vision and strategy for WillTech',
