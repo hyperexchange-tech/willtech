@@ -67,7 +67,7 @@ export default function Team() {
                     transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.3 }}
                     className="text-center mt-12"
                 >
-                    <Link href="" className="inline-block px-8 py-3 bg-blue-800 hover:bg-orange-700 text-white font-semibold rounded-lg transition-colors duration-300">
+                    <Link href="" className="inline-block px-8 py-3 bg-blue-800 hover:bg-indigo-700 text-white font-semibold rounded-lg transition-colors duration-300">
                         View Full Team
                     </Link>
                 </motion.div>
