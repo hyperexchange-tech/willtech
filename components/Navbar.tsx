@@ -15,13 +15,13 @@ export default function Navbar() {
     ];
 
     return (
-        <motion.nav className='fixed top-5 left-0 right-0 z-50 px-4'
-            initial={{ y: -100, opacity: 0 }}
+        <motion.nav className='fixed top-0 left-0 right-0 z-50 px-0'
+            initial={{ y: -140, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1 }}
         >
-            <div className='max-w-6xl mx-auto flex items-center justify-between bg-white/80 backdrop-blur-md border border-orange-200/60 rounded-2xl p-3 shadow-sm'>
+            <div className='w-full flex items-center justify-between bg-white/80 backdrop-blur-md border border-orange-200/60 p-3 shadow-sm'>
                 <a href='/#'>
                     <span className="text-lg font-bold text-[#F37335]">WillTechs LTD</span>
                 </a>
@@ -42,7 +42,7 @@ export default function Navbar() {
                     <MenuIcon className='size-6' />
                 </button>
             </div>
-            <div className={`flex flex-col items-center justify-center gap-6 text-lg font-medium fixed inset-0 bg-white/95 backdrop-blur-md z-50 transition-all duration-300 ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
+            <div className={`flex flex-col items-center justify-center gap-6 text-lg font-medium fixed inset-0 bg-white/95 backdrop-blur-md z-60 transition-all duration-300 ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
                 {navLinks.map((link) => (
                     <a key={link.name} href={link.href} onClick={() => setIsOpen(false)} className="text-gray-800 hover:text-orange-600">
                         {link.name}
