@@ -11,13 +11,13 @@ export const featuresData = [
         icon: <ZapIcon className="w-6 h-6" />,
         title: 'Quantity Surveying & Cost Consultancy',
         desc: 'Cost planning, budgeting, procurement support and financial monitoring throughout the project lifecycle.',
-        image: '/image3.jpg'
+        image: '/image7.jpg'
     },
     {
         icon: <VideoIcon className="w-6 h-6" />,
         title: 'Construction & Technical Support',
         desc: 'Site coordination, technical advisory and delivery support during construction phases.',
-        image: '/image2.jpg'
+        image: '/image8.jpg'
     }
 ];
 
