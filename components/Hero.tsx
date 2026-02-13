@@ -47,9 +47,9 @@ export default function Hero() {
                                 className="w-full h-full object-cover object-center"
                             />
 
-                            <div className="absolute left-4 top-22 px-3 py-1 rounded-full bg-black/15 backdrop-blur-sm text-xs">
-                                Engineering • Consultancy • Project Delivery
-                            </div>
+<div className="absolute left-4 top-22 px-3 py-1 rounded-full bg-black text-white text-xs font-bold">
+  Engineering • Consultancy • Project Delivery
+</div>
 
                             <div className="absolute inset-0 flex items-center justify-center pt-16">
                                 <h2 className="text-base md:text-4xl font-bold text-white text-center max-w-2xl px-6 drop-shadow-lg">
