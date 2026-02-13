@@ -21,11 +21,23 @@ export default function About() {
                 >
                     <p className="text-gray-700 text-lg leading-relaxed mb-6">
                         WillTech Engineering Limited is a Nigerian-registered engineering and project management consultancy supporting construction and infrastructure delivery.                    </p>
-                    <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                        We work with private clients, developers, institutions and public sector teams to provide practical project management, cost control and technical support from concept to completion.                    </p>
-                    <p className="text-gray-700 text-lg leading-relaxed">
-                        Our focus is on helping clients deliver well-planned, properly costed and responsibly executed projects.
-                    </p>
+<p className="text-gray-700 text-lg leading-relaxed mb-4">
+  We support projects across the public and private sectors:
+</p>
+
+<ul className="text-gray-700 text-lg leading-relaxed list-disc pl-6 mb-6 space-y-1">
+  <li>Government & public institutions</li>
+  <li>Property developers</li>
+  <li>Corporate organisations</li>
+  <li>Private clients</li>
+  <li>Nigerians in diaspora</li>
+  <li>NGOs & educational institutions</li>
+</ul>
+
+<p className="text-gray-700 text-lg leading-relaxed">
+  Whether delivering infrastructure, managing construction or providing technical advisory services, our role is to ensure projects are executed professionally, transparently and efficiently.
+</p>
+
 
                     <div className="mt-6">
                         <Link
